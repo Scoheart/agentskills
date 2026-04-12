@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "exa-web-search-free": {
+      "source": "sundial-org/awesome-openclaw-skills",
+      "sourceType": "github",
+      "computedHash": "4e2bce6b4826fa8bbc7a409caf9e861b5f47f59a298c1431819a5fc58ab81862"
+    },
     "firecrawl": {
       "source": "firecrawl/cli",
       "sourceType": "github",
@@ -45,6 +50,11 @@
       "source": "github/awesome-copilot",
       "sourceType": "github",
       "computedHash": "2607fc60629b82b257136dd2a7a373f0a4466c0b49df7746d845d59313c99b21"
+    },
+    "hf-cli": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "5eb5428187b55ae11137721cc8e81c65f261c1ddf5062ab99099b4cd558c633e"
     }
   }
 }
