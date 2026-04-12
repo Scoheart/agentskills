@@ -1,0 +1,8 @@
+  - name: <名称>
+    type: hysteria2
+    server: <IP>
+    port: <端口>
+    password: <密码>
+    sni: bing.com
+    skip-cert-verify: true
+    # fingerprint: "<证书指纹>"

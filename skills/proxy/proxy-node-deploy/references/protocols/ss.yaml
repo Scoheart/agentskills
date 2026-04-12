@@ -1,0 +1,7 @@
+  - name: <名称>
+    type: ss
+    server: <IP>
+    port: <端口>
+    cipher: 2022-blake3-aes-256-gcm
+    password: "<base64密码>"
+    udp: true

@@ -1,0 +1,87 @@
+{
+    "name": "scoheart-agent-skills",
+    "owner": {
+        "name": "Scoheart",
+        "email": "scoheart148779055@gmail.com"
+    },
+    "metadata": {
+        "description": "Scoheart's agent skill collection: cloud ops, web automation, AI/ML tooling, content creation, and deployment workflows",
+        "version": "2.0.0"
+    },
+    "plugins": [
+        {
+            "name": "cloud-providers",
+            "description": "Cloud provider CLI skills — automate infrastructure, storage, and service management via native CLIs (AWS, GCP, Cloudflare, Vultr, Hetzner, etc.)",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/cloud/cloud-aws",
+                "./skills/cloud/cloud-cf",
+                "./skills/cloud/cloud-gcp",
+                "./skills/cloud/cloud-hetzner",
+                "./skills/cloud/cloud-ksyun",
+                "./skills/cloud/cloud-qingcloud",
+                "./skills/cloud/cloud-qiniu",
+                "./skills/cloud/cloud-scaleway",
+                "./skills/cloud/cloud-ucloud",
+                "./skills/cloud/cloud-upcloud",
+                "./skills/cloud/cloud-upyun",
+                "./skills/cloud/cloud-vultr"
+            ]
+        },
+        {
+            "name": "content-creation",
+            "description": "Content creation skills — RedNote (小红书) image generation, Xiaohongshu automation (publish, search, interact), and proxy node deployment",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/image/rednote",
+                "./skills/tool/xiaohongshu-skills",
+                "./skills/proxy/proxy-node-deploy"
+            ]
+        },
+        {
+            "name": "tavily-search",
+            "description": "Tavily AI-powered web search, crawl, extract, map, research, and best practices — comprehensive web intelligence toolkit",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/tavily/tavily-search",
+                "./skills/tavily/tavily-crawl",
+                "./skills/tavily/tavily-extract",
+                "./skills/tavily/tavily-map",
+                "./skills/tavily/tavily-research",
+                "./skills/tavily/tavily-best-practices",
+                "./skills/tavily/tavily-cli"
+            ]
+        },
+        {
+            "name": "dev-toolkit",
+            "description": "Developer productivity toolkit — GitHub CLI, Hugging Face CLI, browser automation, web access, skill discovery, and language learning workflow",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/tool/tool-gh-cli",
+                "./skills/tool/hf-cli",
+                "./skills/tool/browser-use",
+                "./skills/tool/web-access",
+                "./skills/tool/tool-find-skills",
+                "./skills/tool/learning-assistant",
+                "./skills/tool/resource-gatherer",
+                "./skills/tool/study-builder",
+                "./skills/tool/study-viewer",
+                "./skills/tool/syntax-interpreter"
+            ]
+        },
+        {
+            "name": "vercel-deploy",
+            "description": "Vercel deployment — deploy apps via MCP integration or token-based CLI authentication",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/vercel/deploy-to-vercel",
+                "./skills/vercel/vercel-cli-with-tokens"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+  - name: <名称>
+    type: vmess
+    server: <IP>
+    port: <端口>
+    uuid: <UUID>
+    alterId: 0
+    cipher: auto
+    udp: true
+    # tls: true
+    # sni: example.com
+    # network: ws
+    # ws-opts:
+    #   path: /path
