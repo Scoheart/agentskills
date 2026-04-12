@@ -1,60 +1,230 @@
 {
   "version": 1,
   "skills": {
+    "browser-use": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "f974fac2783f80ac2a1a2cb45d576b5cca55123015dc73db8adfd02277002461"
+    },
+    "cloud-aws": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "7fe077896af15dc9617dae3c08e82589bac2461084aa0399b7d8b8ea9ff7aaad"
+    },
+    "cloud-cf": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "f2f110ceb01b40eebe1cdae8371b2c5afe1c81409808c36f69a46755238a28f6"
+    },
+    "cloud-gcp": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "3a75f69ffca8053843ae8698bbf6d1b3afd3b4c4d443570a478eed675415abbf"
+    },
+    "cloud-hetzner": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "56488864eb5ab07e67e8dcad9b1c117caa45c0cc7f98607a1c4ba317ae73a194"
+    },
+    "cloud-ksyun": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "91fe32b15aa41999d1a2a57e6b743a9fee3c25bc6fbca229c4acfb1062604f5d"
+    },
+    "cloud-qingcloud": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "880999486248634062b4c5631bbb85a391860072ccf591e212c775cf49d552b1"
+    },
+    "cloud-qiniu": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "8a88a34fc96f387f652fa0915ba9054265aacbc8f57785017a82fa4672202149"
+    },
+    "cloud-scaleway": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "08c7adf79ae3f7e50cc79e242cccc9d5a99a98fc26a2c5436459b2bf3bb82bad"
+    },
+    "cloud-ucloud": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "0d2443e6cf3cd54cf4c78cd9a2d311e671bba8650a68205a5d6275f881d11df5"
+    },
+    "cloud-upcloud": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "390451d5724a184ce22f11276c3daab82ebe95f5f1e6851fa1343fa3c725a8cf"
+    },
+    "cloud-upyun": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "845d5985a5819a4c8f513b7e4cdaf4a790cf12b98ee6855d9c3d05594b36c8d3"
+    },
+    "cloud-vultr": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "4194c607bb1cd4f21ffc4e8677b76eb8a2e4e890ebb265038ada8cec7a0bc718"
+    },
+    "deploy-to-vercel": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "0a800bb0babc2d52e809f8f9f03bd43b48c029182f799afbdd9776239461d5a6"
+    },
     "exa-web-search-free": {
-      "source": "sundial-org/awesome-openclaw-skills",
-      "sourceType": "github",
-      "computedHash": "4e2bce6b4826fa8bbc7a409caf9e861b5f47f59a298c1431819a5fc58ab81862"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "find-skills": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "78b28032cb96498a6a4a964b0d8ccb72144cac1371c62782dd831126c95d1371"
     },
     "firecrawl": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "9c4db067e89af047603e7ebf9d1ef8769ef0c25cee8701f4cb37a2af6b3b9825"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "firecrawl-agent": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "cd56d2fae177ac801d440b4ddf1fcd06d4456841a850b7a31572c4ebf5e0e356"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "firecrawl-crawl": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "bf3882a8c3d9f1c4caf4b487b81f925f8986f5c98d28326e74c71dd8cd5faf70"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "firecrawl-download": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "82c403305fc798c1a29883f660a794cadce62416cf4391a02e1218ca7a6e831b"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "firecrawl-interact": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "48a002789b87838d6bf2748915e653f0b0e1eb31ab183212dd522a95725a2ee3"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "firecrawl-map": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "80d4843983b4bd103e10e8e38e0b458b1478309eec3328227309a33792e2bc61"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "firecrawl-scrape": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "84247f4175e5ab6104aa2c4ff4038f1eae98d992a253755ca18d3b62e28a7b5c"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "firecrawl-search": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "computedHash": "563370b34bff9189f3180d1e4547a6758d26492760821ed85c5e67504fd8c5ca"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "gh-cli": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "cbe644b0c6760ae2a1eaafa39133920d889331327065d92a131675a665273e56"
     },
     "git-commit": {
-      "source": "github/awesome-copilot",
-      "sourceType": "github",
-      "computedHash": "2607fc60629b82b257136dd2a7a373f0a4466c0b49df7746d845d59313c99b21"
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "hf-cli": {
       "source": "/Users/scoheart/agent/agentskills",
       "sourceType": "local",
-      "computedHash": "5eb5428187b55ae11137721cc8e81c65f261c1ddf5062ab99099b4cd558c633e"
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "learning-assistant": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "f50d90bd63a0b33213e69d20a110da975c36a07c05e285898371bf49ee1f39fa"
+    },
+    "perplexity-search": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "59f20cd92e0740e8248115ebe553b50822aa6758ab93a811b65a6d6d02041540"
+    },
+    "proxy-node-deploy": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "6ec5c4e3debe8e70f35571217151ca5e250ce999ce33893c1e45ec48927c3307"
+    },
+    "rednote": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "f0b80b5a9bb8b7f42b5c5409dd329689be2cd552b3b079e02137d0235f6549be"
+    },
+    "resource-gatherer": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "3f8069a15cf30c7731b6c17f6cd3cc9c66c0eda7e1ae39cefaffdb91fd80b9c8"
+    },
+    "study-builder": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "ebb57212f9532349b1a49c9c77e4c7c6e6f76fb7c1dba678ba8ca691107a8b37"
+    },
+    "study-viewer": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "34b0f63d3c3b31df4478d82a571d27323ec278f4a30d239a36db0761ea8bf8eb"
+    },
+    "syntax-interpreter": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "ff05569c4092d6827f6c17a1c36727cee8bb60c4e8cd5f4cccfd0ce1015866ad"
+    },
+    "tavily-best-practices": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "f674b49e68bb5dc55250e4905fae451a7a9a5571cfea8af762da689ccf16bb0a"
+    },
+    "tavily-cli": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "3e62960686a24b313bf2c03c30168436de5694fad515a349789c38fa72d4f672"
+    },
+    "tavily-crawl": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "4da558ada7a957333cbabafb6fa92b553eb553c12944b65d7cb43b56c550ec8b"
+    },
+    "tavily-extract": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "8d52d231d67d398637d06234e09e9207fb7caa692ff1c33c0df43493b7d4ca7e"
+    },
+    "tavily-map": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "9a4996c7249ff1a1e0757e16c89d1e197ec6ef3b0ced9fe7fc103d4707d8ba27"
+    },
+    "tavily-research": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "58a32caadb010598a2faad7544dedade288c1e81e72aa550b13d83b003264062"
+    },
+    "tavily-search": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "bda6e90a41addbe0f8750a38aebdf59c5bdc8514d23aaf2015ffe45de6958b74"
+    },
+    "vercel-cli-with-tokens": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "1e1ef4ae4ad838d0ad5f93a659bf065475705cd552bd3c9a2a4faade6098b030"
+    },
+    "web-access": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "381c491c554a3f29031db22b7342419606e392d5a7776e3a3fea86d67f88ecfe"
+    },
+    "xiaohongshu-skills": {
+      "source": "/Users/scoheart/agent/agentskills",
+      "sourceType": "local",
+      "computedHash": "ef7540de49dd7f2a87af17ef1e435f35445e1a4e3d3a2a01f01503023ab57dda"
     }
   }
 }

@@ -1,3 +1,36 @@
+# Agent tool configs
+.adal
 .agents
+.augment
+.bob
 .claude
+.claude-plugin
+.codebuddy
+.commandcode
+.continue
+.cortex
+.crush
+.factory
 .firecrawl
+.goose
+.iflow
+.junie
+.kilocode
+.kiro
+.kode
+.mcpjam
+.mux
+.neovate
+.openhands
+.pi
+.pochi
+.qoder
+.qwen
+.roo
+.trae
+.vibe
+.windsurf
+.zencoder
+
+# Python
+.venv
