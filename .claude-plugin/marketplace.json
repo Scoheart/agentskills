@@ -5,28 +5,81 @@
         "email": "scoheart148779055@gmail.com"
     },
     "metadata": {
-        "description": "Scoheart's agent skill collection: cloud ops, web automation, AI/ML tooling, content creation, and deployment workflows",
-        "version": "2.0.0"
+        "description": "Scoheart's agent skill collection: cloud ops, web scraping, AI/ML tooling, content creation, document generation, and deployment workflows",
+        "version": "3.0.0"
     },
     "plugins": [
         {
             "name": "cloud-providers",
-            "description": "Cloud provider CLI skills — automate infrastructure, storage, and service management via native CLIs (AWS, GCP, Cloudflare, Vultr, Hetzner, etc.)",
+            "description": "Cloud provider CLI skills — automate infrastructure, storage, and service management via native CLIs (AWS, GCP, Azure, Alibaba Cloud, Cloudflare, Vultr, Hetzner, etc.)",
             "source": "./",
             "strict": false,
             "skills": [
+                "./skills/cloud/cloud-aliyun",
                 "./skills/cloud/cloud-aws",
+                "./skills/cloud/cloud-azure",
+                "./skills/cloud/cloud-baidu",
                 "./skills/cloud/cloud-cf",
+                "./skills/cloud/cloud-do",
                 "./skills/cloud/cloud-gcp",
                 "./skills/cloud/cloud-hetzner",
+                "./skills/cloud/cloud-huawei",
+                "./skills/cloud/cloud-ibm",
+                "./skills/cloud/cloud-jd",
                 "./skills/cloud/cloud-ksyun",
+                "./skills/cloud/cloud-linode",
+                "./skills/cloud/cloud-oci",
+                "./skills/cloud/cloud-ovh",
                 "./skills/cloud/cloud-qingcloud",
                 "./skills/cloud/cloud-qiniu",
                 "./skills/cloud/cloud-scaleway",
+                "./skills/cloud/cloud-tencent",
                 "./skills/cloud/cloud-ucloud",
                 "./skills/cloud/cloud-upcloud",
                 "./skills/cloud/cloud-upyun",
+                "./skills/cloud/cloud-volcengine",
                 "./skills/cloud/cloud-vultr"
+            ]
+        },
+        {
+            "name": "firecrawl",
+            "description": "Firecrawl web scraping toolkit — scrape, crawl, search, map, extract, download, and interact with web content programmatically",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/firecrawl/firecrawl",
+                "./skills/firecrawl/firecrawl-agent",
+                "./skills/firecrawl/firecrawl-crawl",
+                "./skills/firecrawl/firecrawl-download",
+                "./skills/firecrawl/firecrawl-interact",
+                "./skills/firecrawl/firecrawl-map",
+                "./skills/firecrawl/firecrawl-scrape",
+                "./skills/firecrawl/firecrawl-search"
+            ]
+        },
+        {
+            "name": "anthropics",
+            "description": "Anthropic official skills — document generation (PDF, DOCX, PPTX, XLSX), web app building, frontend design, MCP server building, brand guidelines, internal comms, and more",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/anthropics/skills/algorithmic-art",
+                "./skills/anthropics/skills/brand-guidelines",
+                "./skills/anthropics/skills/canvas-design",
+                "./skills/anthropics/skills/doc-coauthoring",
+                "./skills/anthropics/skills/docx",
+                "./skills/anthropics/skills/frontend-design",
+                "./skills/anthropics/skills/internal-comms",
+                "./skills/anthropics/skills/mcp-builder",
+                "./skills/anthropics/skills/pdf",
+                "./skills/anthropics/skills/pptx",
+                "./skills/anthropics/skills/skill-creator",
+                "./skills/anthropics/skills/slack-gif-creator",
+                "./skills/anthropics/skills/template-skill",
+                "./skills/anthropics/skills/theme-factory",
+                "./skills/anthropics/skills/web-artifacts-builder",
+                "./skills/anthropics/skills/webapp-testing",
+                "./skills/anthropics/skills/xlsx"
             ]
         },
         {
@@ -57,30 +110,36 @@
         },
         {
             "name": "dev-toolkit",
-            "description": "Developer productivity toolkit — GitHub CLI, Hugging Face CLI, browser automation, web access, skill discovery, and language learning workflow",
+            "description": "Developer productivity toolkit — Hugging Face CLI, browser automation, web access, Exa/Perplexity search, git commit, language learning workflow, and Xiaohongshu automation",
             "source": "./",
             "strict": false,
             "skills": [
-                "./skills/tool/tool-gh-cli",
-                "./skills/tool/hf-cli",
                 "./skills/tool/browser-use",
-                "./skills/tool/web-access",
-                "./skills/tool/tool-find-skills",
+                "./skills/tool/exa-web-search-free",
+                "./skills/tool/git-commit",
+                "./skills/tool/hf-cli",
                 "./skills/tool/learning-assistant",
+                "./skills/tool/perplexity-search",
                 "./skills/tool/resource-gatherer",
                 "./skills/tool/study-builder",
                 "./skills/tool/study-viewer",
-                "./skills/tool/syntax-interpreter"
+                "./skills/tool/syntax-interpreter",
+                "./skills/tool/web-access"
             ]
         },
         {
-            "name": "vercel-deploy",
-            "description": "Vercel deployment — deploy apps via MCP integration or token-based CLI authentication",
+            "name": "vercel-labs",
+            "description": "Vercel deployment and React best practices — deploy apps, CLI authentication, composition patterns, React/React Native skills, view transitions, and web design guidelines",
             "source": "./",
             "strict": false,
             "skills": [
-                "./skills/vercel/deploy-to-vercel",
-                "./skills/vercel/vercel-cli-with-tokens"
+                "./skills/vercel-labs/agent-skills/deploy-to-vercel",
+                "./skills/vercel-labs/agent-skills/vercel-cli-with-tokens",
+                "./skills/vercel-labs/agent-skills/vercel-composition-patterns",
+                "./skills/vercel-labs/agent-skills/vercel-react-best-practices",
+                "./skills/vercel-labs/agent-skills/vercel-react-native-skills",
+                "./skills/vercel-labs/agent-skills/vercel-react-view-transitions",
+                "./skills/vercel-labs/agent-skills/web-design-guidelines"
             ]
         }
     ]
