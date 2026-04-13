@@ -88,7 +88,7 @@
             "source": "./",
             "strict": false,
             "skills": [
-                "./skills/image/rednote",
+                "./skills/tool/rednote",
                 "./skills/tool/xiaohongshu-skills",
                 "./skills/proxy/proxy-node-deploy"
             ]
@@ -120,11 +120,14 @@
                 "./skills/tool/hf-cli",
                 "./skills/tool/learning-assistant",
                 "./skills/tool/perplexity-search",
+                "./skills/tool/rednote",
                 "./skills/tool/resource-gatherer",
+                "./skills/tool/source-explainer",
                 "./skills/tool/study-builder",
                 "./skills/tool/study-viewer",
                 "./skills/tool/syntax-interpreter",
-                "./skills/tool/web-access"
+                "./skills/tool/web-access",
+                "./skills/tool/xiaohongshu-skills"
             ]
         },
         {
