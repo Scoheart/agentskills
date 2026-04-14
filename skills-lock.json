@@ -221,6 +221,11 @@
       "sourceType": "github",
       "computedHash": "146d0f407e3f04aac0378b74bb238833b24bbd5e6387b932e82cfbf228f219b4"
     },
+    "source-explainer": {
+      "source": "/Users/scoheart/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "9bf8ce87324b6967d745879a7f835bf234fe086a6ac9a23b31bd2dfc889fa270"
+    },
     "study-builder": {
       "source": "/Users/scoheart/agent/agentskills",
       "sourceType": "local",

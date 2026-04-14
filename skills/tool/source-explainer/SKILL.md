@@ -169,10 +169,23 @@ Sections marked (Optional) should only be included when there is something meani
 
 ## Quality standards
 
+### Accuracy
+
 - **Verify, don't guess.** Every claim must be backed by code you've actually read. If something is uncertain, explicitly say so (e.g., "根据代码推测" / "This appears to be...") and explain your reasoning.
 - **Cite precisely.** Use `path/to/file.ext:lineNumber` format. When referencing a function, always include its full file path.
+- **Flag uncertainty.** If you can't verify something from the code, say so. A confident wrong answer is worse than an honest "I'm not sure — here's what the code suggests."
+
+### Depth
+
 - **Explain the why.** Design intent and tradeoffs matter more than surface-level description. Understanding _why_ a decision was made is more valuable than knowing _what_ it does.
 - **Go deep on the interesting parts.** Not every line of code deserves equal attention. Spend more time on clever algorithms, non-obvious design patterns, and architectural decisions. Skim over boilerplate.
 - **Connect the dots.** Show how the piece the user asked about fits into the larger system. A function doesn't exist in isolation — explain its role in the bigger picture.
 - **Spot and name patterns.** Identify design patterns (Observer, Strategy, Middleware, Factory, etc.) and name them explicitly. This helps the reader build a mental model faster and connect the code to well-known concepts.
-- **Flag uncertainty.** If you can't verify something from the code, say so. A confident wrong answer is worse than an honest "I'm not sure — here's what the code suggests."
+
+### Practical value
+
+- **Answer "so what?"** After explaining how something works, always explain what that means for the reader. A mechanism description without practical implications is incomplete.
+- **Ground usage guidance in real code.** "How to use it" examples should come from actual callers, tests, or configs found in the codebase — not invented from scratch. If no real examples exist, say so and provide a minimal synthetic example clearly labeled as such.
+- **Derive best practices from evidence.** Every recommendation in "Best practices" must trace back to a specific code pattern, comment, error handler, or test case. Do not include generic software engineering advice (e.g., "write tests", "use meaningful names") unless the codebase demonstrates a specific, noteworthy approach to it.
+- **Distinguish must-do from nice-to-have.** When listing best practices, clearly separate hard constraints (will break if violated) from soft recommendations (improves quality but not required).
+- **Include the failure mode.** For each "don't" in best practices, briefly explain what goes wrong if the advice is ignored — ideally citing the defensive code or error handling that reveals the failure path.
