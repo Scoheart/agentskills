@@ -33,3 +33,5 @@
 
 # Python
 .venv
+
+.DS_Store
