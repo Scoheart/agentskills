@@ -6,6 +6,12 @@
       "sourceType": "github",
       "computedHash": "5c2804e8f0d4944c7ce6939a2e4afdcf0cb69c966a505481ed8b96e20bb32eee"
     },
+    "answers": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/answers/SKILL.md",
+      "computedHash": "3cf1ef1b735566503eb2693aaadd50f2e163f79e14ebe5bb65e9ddaccb7a74b7"
+    },
     "brand-guidelines": {
       "source": "anthropics/skills",
       "sourceType": "github",
@@ -15,6 +21,12 @@
       "source": "/Users/scoheart/agent/agentskills",
       "sourceType": "local",
       "computedHash": "f974fac2783f80ac2a1a2cb45d576b5cca55123015dc73db8adfd02277002461"
+    },
+    "bx": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/bx/SKILL.md",
+      "computedHash": "b846bd21e3476a10f262d40a765e65149e339e85b37d7dfa8f128317e7cbf090"
     },
     "canvas-design": {
       "source": "anthropics/skills",
@@ -166,6 +178,12 @@
       "sourceType": "local",
       "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
+    "images-search": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/images-search/SKILL.md",
+      "computedHash": "e3beb91731658260cb49da1a7e0bc3f79aedae72a45c9ac5a99c327ecb062f5e"
+    },
     "internal-comms": {
       "source": "anthropics/skills",
       "sourceType": "github",
@@ -176,10 +194,34 @@
       "sourceType": "local",
       "computedHash": "f50d90bd63a0b33213e69d20a110da975c36a07c05e285898371bf49ee1f39fa"
     },
+    "llm-context": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/llm-context/SKILL.md",
+      "computedHash": "0b7616f5be0e4f59ddec4102e4068e3bdeb83c43df3df6ffe32b059cdcd7c683"
+    },
+    "local-descriptions": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/local-descriptions/SKILL.md",
+      "computedHash": "267837070da3c75692f7824b8b28836d75b58411b0abe8113e3dff12d53af27c"
+    },
+    "local-pois": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/local-pois/SKILL.md",
+      "computedHash": "6bde7cab81b809721a67612dab3b006c2ee4e5e7c5d201a890e3bae430b40fc1"
+    },
     "mcp-builder": {
       "source": "anthropics/skills",
       "sourceType": "github",
       "computedHash": "fc68038c900eb801f73ff96130c9f9dba533cc94212ed8435833242f196dedcf"
+    },
+    "news-search": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/news-search/SKILL.md",
+      "computedHash": "38ed8fa771c2958f56b4c7dbffdf9ab0808036a173ad2c6949d668ecdb0dcaf8"
     },
     "pdf": {
       "source": "anthropics/skills",
@@ -226,6 +268,12 @@
       "sourceType": "local",
       "computedHash": "9bf8ce87324b6967d745879a7f835bf234fe086a6ac9a23b31bd2dfc889fa270"
     },
+    "spellcheck": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/spellcheck/SKILL.md",
+      "computedHash": "a6586d3567654d79420fb77771eace1a1b146e81d05db5c29e41db15ab9a03d3"
+    },
     "study-builder": {
       "source": "/Users/scoheart/agent/agentskills",
       "sourceType": "local",
@@ -235,6 +283,12 @@
       "source": "/Users/scoheart/agent/agentskills",
       "sourceType": "local",
       "computedHash": "34b0f63d3c3b31df4478d82a571d27323ec278f4a30d239a36db0761ea8bf8eb"
+    },
+    "suggest": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/suggest/SKILL.md",
+      "computedHash": "2a1764a28f1fca6d65e1b17dd7dcfdb44d40058bd5fe8675caf146e1cdbc822b"
     },
     "syntax-interpreter": {
       "source": "/Users/scoheart/agent/agentskills",
@@ -311,6 +365,12 @@
       "sourceType": "github",
       "computedHash": "c8952fc9127fa0564d0cb71dccb4215a5608ac933b5831104f09173a97a46f85"
     },
+    "videos-search": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/videos-search/SKILL.md",
+      "computedHash": "f40140b8a8035d5f3c8b82b0c6140792548049d5a4d27df9066b04493dc6da5a"
+    },
     "web-access": {
       "source": "/Users/scoheart/agent/agentskills",
       "sourceType": "local",
@@ -325,6 +385,12 @@
       "source": "vercel-labs/agent-skills",
       "sourceType": "github",
       "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+    },
+    "web-search": {
+      "source": "brave/brave-search-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-search/SKILL.md",
+      "computedHash": "3bd3c40e767bbba3cfc4fd466dbe22aab5d0cb8476633d472655e20fa560ba92"
     },
     "webapp-testing": {
       "source": "anthropics/skills",

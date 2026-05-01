@@ -1,0 +1,5 @@
+interface:
+  display_name: "LLM Price Lookup"
+  short_description: "Lookup model pricing across Models.dev, OpenRouter, and official providers."
+  icon: "💸"
+  brand_color: "#2E7D32"
