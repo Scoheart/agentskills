@@ -2,8 +2,8 @@
   "version": 1,
   "skills": {
     "algorithmic-art": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "5c2804e8f0d4944c7ce6939a2e4afdcf0cb69c966a505481ed8b96e20bb32eee"
     },
     "answers": {
@@ -12,13 +12,18 @@
       "skillPath": "skills/answers/SKILL.md",
       "computedHash": "3cf1ef1b735566503eb2693aaadd50f2e163f79e14ebe5bb65e9ddaccb7a74b7"
     },
+    "ant-bank": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "d0be1a819335794e4dc3521f9ab003a6d609b2685ad305ff307eea4a82952112"
+    },
     "brand-guidelines": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "4aa754f4f7fc54ac3e7f6e2fb55c0e2fb14b7d70da077b41a86bd1889ff9094c"
     },
     "browser-use": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "f974fac2783f80ac2a1a2cb45d576b5cca55123015dc73db8adfd02277002461"
     },
@@ -29,89 +34,94 @@
       "computedHash": "b846bd21e3476a10f262d40a765e65149e339e85b37d7dfa8f128317e7cbf090"
     },
     "canvas-design": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "a2fe47d24b3fd8e52faef731fff099c557e698083cd644b2e5695cc4dd8c7715"
     },
     "cloud-aws": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "7fe077896af15dc9617dae3c08e82589bac2461084aa0399b7d8b8ea9ff7aaad"
     },
     "cloud-cf": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "f2f110ceb01b40eebe1cdae8371b2c5afe1c81409808c36f69a46755238a28f6"
     },
     "cloud-gcp": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "3a75f69ffca8053843ae8698bbf6d1b3afd3b4c4d443570a478eed675415abbf"
     },
     "cloud-hetzner": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "56488864eb5ab07e67e8dcad9b1c117caa45c0cc7f98607a1c4ba317ae73a194"
     },
     "cloud-ksyun": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "91fe32b15aa41999d1a2a57e6b743a9fee3c25bc6fbca229c4acfb1062604f5d"
     },
     "cloud-qingcloud": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "880999486248634062b4c5631bbb85a391860072ccf591e212c775cf49d552b1"
     },
     "cloud-qiniu": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "8a88a34fc96f387f652fa0915ba9054265aacbc8f57785017a82fa4672202149"
     },
     "cloud-scaleway": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "08c7adf79ae3f7e50cc79e242cccc9d5a99a98fc26a2c5436459b2bf3bb82bad"
     },
     "cloud-ucloud": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "0d2443e6cf3cd54cf4c78cd9a2d311e671bba8650a68205a5d6275f881d11df5"
     },
     "cloud-upcloud": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "390451d5724a184ce22f11276c3daab82ebe95f5f1e6851fa1343fa3c725a8cf"
     },
     "cloud-upyun": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "845d5985a5819a4c8f513b7e4cdaf4a790cf12b98ee6855d9c3d05594b36c8d3"
     },
     "cloud-vultr": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "4194c607bb1cd4f21ffc4e8677b76eb8a2e4e890ebb265038ada8cec7a0bc718"
     },
+    "concept-analyzer": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "162cd58d3e1eeedd763133a41d0efd00fa839f55f9ac27a96b2314436e98c2c8"
+    },
     "deploy-to-vercel": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "computedHash": "03e0eaaa9bf13ba1e7ffa387f5893de6f324c0868c627001f179395a8feaa7c9"
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "0a800bb0babc2d52e809f8f9f03bd43b48c029182f799afbdd9776239461d5a6"
     },
     "doc-coauthoring": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "b964e4c3ffe13f66f76dd7919073e60c7aec622cd8a8363bb36323188100cf8e"
     },
     "docx": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "6962db07127ee540a56e4677f65576d0727668a1d67f7da8bc978f10791c2bfe"
     },
     "exa-web-search-free": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "4e2bce6b4826fa8bbc7a409caf9e861b5f47f59a298c1431819a5fc58ab81862"
     },
     "find-skills": {
       "source": "/Users/scoheart/agent/agentskills",
@@ -119,48 +129,48 @@
       "computedHash": "78b28032cb96498a6a4a964b0d8ccb72144cac1371c62782dd831126c95d1371"
     },
     "firecrawl": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "9c4db067e89af047603e7ebf9d1ef8769ef0c25cee8701f4cb37a2af6b3b9825"
     },
     "firecrawl-agent": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "cd56d2fae177ac801d440b4ddf1fcd06d4456841a850b7a31572c4ebf5e0e356"
     },
     "firecrawl-crawl": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "bf3882a8c3d9f1c4caf4b487b81f925f8986f5c98d28326e74c71dd8cd5faf70"
     },
     "firecrawl-download": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "82c403305fc798c1a29883f660a794cadce62416cf4391a02e1218ca7a6e831b"
     },
     "firecrawl-interact": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "48a002789b87838d6bf2748915e653f0b0e1eb31ab183212dd522a95725a2ee3"
     },
     "firecrawl-map": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "80d4843983b4bd103e10e8e38e0b458b1478309eec3328227309a33792e2bc61"
     },
     "firecrawl-scrape": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "84247f4175e5ab6104aa2c4ff4038f1eae98d992a253755ca18d3b62e28a7b5c"
     },
     "firecrawl-search": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "563370b34bff9189f3180d1e4547a6758d26492760821ed85c5e67504fd8c5ca"
     },
     "frontend-design": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
     },
     "gh-cli": {
@@ -169,14 +179,19 @@
       "computedHash": "cbe644b0c6760ae2a1eaafa39133920d889331327065d92a131675a665273e56"
     },
     "git-commit": {
-      "source": "/Users/scoheart/scoheart/agentskills/skills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "2607fc60629b82b257136dd2a7a373f0a4466c0b49df7746d845d59313c99b21"
     },
     "hf-cli": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
-      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "computedHash": "5eb5428187b55ae11137721cc8e81c65f261c1ddf5062ab99099b4cd558c633e"
+    },
+    "hk-card": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "7919a183c11bbc6f46c50b3de1bab5a2066bdc00e6c8264677b03adb85c68534"
     },
     "images-search": {
       "source": "brave/brave-search-skills",
@@ -185,12 +200,12 @@
       "computedHash": "e3beb91731658260cb49da1a7e0bc3f79aedae72a45c9ac5a99c327ecb062f5e"
     },
     "internal-comms": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "b36b333bee983462008af46d74689ae5832c2f79ae5f2c18680ee82f6e6bef56"
     },
     "learning-assistant": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "f50d90bd63a0b33213e69d20a110da975c36a07c05e285898371bf49ee1f39fa"
     },
@@ -199,6 +214,11 @@
       "sourceType": "github",
       "skillPath": "skills/llm-context/SKILL.md",
       "computedHash": "0b7616f5be0e4f59ddec4102e4068e3bdeb83c43df3df6ffe32b059cdcd7c683"
+    },
+    "llm-price-lookup": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "2748b761a5ecfe90eea4e36a49662716af7b5ee10c3245137c8d06cd802f2949"
     },
     "local-descriptions": {
       "source": "brave/brave-search-skills",
@@ -213,8 +233,8 @@
       "computedHash": "6bde7cab81b809721a67612dab3b006c2ee4e5e7c5d201a890e3bae430b40fc1"
     },
     "mcp-builder": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "fc68038c900eb801f73ff96130c9f9dba533cc94212ed8435833242f196dedcf"
     },
     "news-search": {
@@ -224,47 +244,52 @@
       "computedHash": "38ed8fa771c2958f56b4c7dbffdf9ab0808036a173ad2c6949d668ecdb0dcaf8"
     },
     "pdf": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "cfbc539377088ca7e44a813b30c306327385bbd973cd7a721e1743f60837dd62"
     },
     "perplexity-search": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "59f20cd92e0740e8248115ebe553b50822aa6758ab93a811b65a6d6d02041540"
     },
     "pptx": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "6b8b859d26f93aa059c9870d1ab76b44ab69e3d6757ce4a03cc94cb760888073"
     },
     "proxy-node-deploy": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "6ec5c4e3debe8e70f35571217151ca5e250ce999ce33893c1e45ec48927c3307"
     },
     "rednote": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "f0b80b5a9bb8b7f42b5c5409dd329689be2cd552b3b079e02137d0235f6549be"
     },
     "resource-gatherer": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "3f8069a15cf30c7731b6c17f6cd3cc9c66c0eda7e1ae39cefaffdb91fd80b9c8"
     },
+    "review-changes": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "708af0cb951dc4bc86f22a1bb9931ba7430195fe35ba08b1bac7283d9ca4806d"
+    },
     "skill-creator": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "b122f4d1e91aa1d83027e050b5b37c3156203ee85458d7b1360bc48167c9e02a"
     },
     "slack-gif-creator": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "146d0f407e3f04aac0378b74bb238833b24bbd5e6387b932e82cfbf228f219b4"
     },
     "source-explainer": {
-      "source": "/Users/scoheart/scoheart/agentskills/skills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "9bf8ce87324b6967d745879a7f835bf234fe086a6ac9a23b31bd2dfc889fa270"
     },
@@ -275,12 +300,12 @@
       "computedHash": "a6586d3567654d79420fb77771eace1a1b146e81d05db5c29e41db15ab9a03d3"
     },
     "study-builder": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "ebb57212f9532349b1a49c9c77e4c7c6e6f76fb7c1dba678ba8ca691107a8b37"
     },
     "study-viewer": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "34b0f63d3c3b31df4478d82a571d27323ec278f4a30d239a36db0761ea8bf8eb"
     },
@@ -291,79 +316,79 @@
       "computedHash": "2a1764a28f1fca6d65e1b17dd7dcfdb44d40058bd5fe8675caf146e1cdbc822b"
     },
     "syntax-interpreter": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "ff05569c4092d6827f6c17a1c36727cee8bb60c4e8cd5f4cccfd0ce1015866ad"
     },
     "tavily-best-practices": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "f674b49e68bb5dc55250e4905fae451a7a9a5571cfea8af762da689ccf16bb0a"
     },
     "tavily-cli": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "3e62960686a24b313bf2c03c30168436de5694fad515a349789c38fa72d4f672"
     },
     "tavily-crawl": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "4da558ada7a957333cbabafb6fa92b553eb553c12944b65d7cb43b56c550ec8b"
     },
     "tavily-extract": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "8d52d231d67d398637d06234e09e9207fb7caa692ff1c33c0df43493b7d4ca7e"
     },
     "tavily-map": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "9a4996c7249ff1a1e0757e16c89d1e197ec6ef3b0ced9fe7fc103d4707d8ba27"
     },
     "tavily-research": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "58a32caadb010598a2faad7544dedade288c1e81e72aa550b13d83b003264062"
     },
     "tavily-search": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "bda6e90a41addbe0f8750a38aebdf59c5bdc8514d23aaf2015ffe45de6958b74"
     },
     "template-skill": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "38c88f722b574a922311d334a70c2008a2a5b896f06eaa75516d716e5725b26f"
     },
     "theme-factory": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "93e78aa44f8fa00bb2c0608f400de1e1dcd6494611dd8ea27c867654240c7bcd"
     },
     "vercel-cli-with-tokens": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "computedHash": "1e1664e75dcab248050faac99db1aaef1456b7945266215ccbab68ddf85b2b79"
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "1e1ef4ae4ad838d0ad5f93a659bf065475705cd552bd3c9a2a4faade6098b030"
     },
     "vercel-composition-patterns": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "computedHash": "575757e3e25761c8c562d6e395d29f0b76c98b1273c0bd72d88e6ab1bc9c7d42"
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "f98931159fa9c7fed043bcd18a891a46dcf89ababa38df13a4c5b7b30dc0ce07"
     },
     "vercel-react-best-practices": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "computedHash": "43ca6c197f8ec13055079da7053232d477068b03ca443f9ac1bc819b95cdd432"
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "1be892a3ea68b74654326ef836a58dd528d99ae0ab8d879764e2519c39068e67"
     },
     "vercel-react-native-skills": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "computedHash": "41d24eafa7c3d82e270439808f7cfbc4d51aeb2d14f2809a2267c16275784d06"
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "2e9088a7333666d8c2833b8ff58bd51b955501c42b4c7244f72b4cbf22dafcc4"
     },
     "vercel-react-view-transitions": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "computedHash": "c8952fc9127fa0564d0cb71dccb4215a5608ac933b5831104f09173a97a46f85"
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "4fea9144f604256d0a21faaea904b7e205e7676e316721ba5fdd68c2600c7d42"
     },
     "videos-search": {
       "source": "brave/brave-search-skills",
@@ -372,19 +397,19 @@
       "computedHash": "f40140b8a8035d5f3c8b82b0c6140792548049d5a4d27df9066b04493dc6da5a"
     },
     "web-access": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "381c491c554a3f29031db22b7342419606e392d5a7776e3a3fea86d67f88ecfe"
     },
     "web-artifacts-builder": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "143730c6db11d82d8c5db4d0cf8f435421983f1fc510b24f77ee9a0e8bae7704"
     },
     "web-design-guidelines": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
     },
     "web-search": {
       "source": "brave/brave-search-skills",
@@ -393,18 +418,43 @@
       "computedHash": "3bd3c40e767bbba3cfc4fd466dbe22aab5d0cb8476633d472655e20fa560ba92"
     },
     "webapp-testing": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "cf8e5916d474886bd67b09691247f43f331523008b7d366064bc607ab42d6302"
     },
+    "xhs-auth": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "3730bd9783dc163a367727273f9c918f6498cb575f5b7abbf4d5cbca4d1682c4"
+    },
+    "xhs-content-ops": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "97756a0b2734a0537ccae112b378196d85575e27ea615aa7170c3f1436bf4b15"
+    },
+    "xhs-explore": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "7a106d1603660a25eb4f70e7f679497d7fc6e4b9ff7dffb3f438890e0a16d333"
+    },
+    "xhs-interact": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "290ec640ac79c3568b45f01764dd9454ac2e06e67dc4c103dd5b5218bb7f9570"
+    },
+    "xhs-publish": {
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
+      "computedHash": "6a2712afde1434ab7e24d7aad8c1cf6a09479e81c4e696bba77e68d18246cbc7"
+    },
     "xiaohongshu-skills": {
-      "source": "/Users/scoheart/agent/agentskills",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",
       "computedHash": "ef7540de49dd7f2a87af17ef1e435f35445e1a4e3d3a2a01f01503023ab57dda"
     },
     "xlsx": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
+      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
+      "sourceType": "local",
       "computedHash": "efd0c8011cf0677d8075cf93867ecec804f9a8754a777e1d2fdb46197e9c247f"
     }
   }
