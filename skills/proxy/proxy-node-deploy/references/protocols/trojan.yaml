@@ -1,8 +1,0 @@
-  - name: <名称>
-    type: trojan
-    server: <IP>
-    port: <端口>
-    password: <密码>
-    udp: true
-    sni: example.com
-    skip-cert-verify: true

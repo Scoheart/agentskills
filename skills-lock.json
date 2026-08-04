@@ -258,11 +258,6 @@
       "sourceType": "local",
       "computedHash": "6b8b859d26f93aa059c9870d1ab76b44ab69e3d6757ce4a03cc94cb760888073"
     },
-    "proxy-node-deploy": {
-      "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
-      "sourceType": "local",
-      "computedHash": "6ec5c4e3debe8e70f35571217151ca5e250ce999ce33893c1e45ec48927c3307"
-    },
     "rednote": {
       "source": "/Users/scoheart/Code/scoheart/agentskills/skills",
       "sourceType": "local",

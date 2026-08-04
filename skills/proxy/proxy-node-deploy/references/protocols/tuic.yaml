@@ -1,9 +1,0 @@
-  - name: <名称>
-    type: tuic
-    server: <IP>
-    port: <端口>
-    uuid: <UUID>
-    password: <密码>
-    udp: true
-    sni: example.com
-    skip-cert-verify: true
